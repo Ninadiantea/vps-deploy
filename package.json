@@ -1,0 +1,14 @@
+{
+  "name": "auto-deploy-telegram-bot",
+  "version": "1.0.0",
+  "description": "🤖 Bot Telegram untuk deploy repo GitHub ke VPS secara otomatis",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "node-telegram-bot-api": "^0.61.0",
+    "ssh2": "^1.11.0"
+  }
+}
